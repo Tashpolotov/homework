@@ -9,8 +9,4 @@ public class amountException extends Exception {
     public Double getRemainingAmount() {
         return remainingAmount;
     }
-
-    public void setRemainingAmount(Double remainingAmount) {
-        this.remainingAmount = remainingAmount;
-    }
 }
